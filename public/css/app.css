@@ -1,0 +1,39 @@
+/*
+ * Bootstrap
+ */
+/*
+ * Components
+ */
+.Testimonial {
+  border: 16px solid #fff;
+}
+.Testimonial--is-featured {
+  width: 100%;
+}
+.Testimonial__body {
+  padding: 0 50px;
+}
+.Testimonial__name {
+  color: #f00;
+}
+.Testimonial--is-featured .Testimonial__name {
+  text-align: left;
+}
+/*
+ * Page-specific styles
+ */
+.join {
+  background: #f00;
+}
+body {
+  color: #008000;
+}
+.heading {
+  color: inherit;
+  text-decoration: none;
+}
+.heading:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=app.css.map */
