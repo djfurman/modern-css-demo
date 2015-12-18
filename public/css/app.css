@@ -17,9 +17,8 @@
   background-color: rgba(0, 0, 255, 0.1);
 }
 .Card {
-  width: calc(99.99% * 1/4 - (30px - 30px * 1/4));
-  height: calc(99.99% * 1/4 - (30px - 30px * 1/4));
-  position: relative;
+  width: calc(99.99% * 1/2 - (30px - 30px * 1/2));
+  height: calc(99.99% * 1/2 - (30px - 30px * 1/2));
   height: 200px;
 }
 .Card:nth-child(n) {
@@ -32,23 +31,37 @@
   margin-right: 0;
   margin-bottom: 0;
 }
-.Card:nth-child(3n) {
+.Card:nth-child(2n) {
   margin-right: 0;
 }
-.Card:nth-child(3n + 1) {
+.Card:nth-child(2n + 1) {
   clear: left;
 }
-.Card:nth-last-child(-n + 3) {
+.Card:nth-last-child(-n + 2) {
   margin-bottom: 0;
 }
-.Card > * {
-  position: absolute;
-  top: 50%;
-  right: auto;
-  bottom: auto;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.Card > div {
+  width: calc(99.99% * 1/2 - (30px - 30px * 1/2));
+  height: calc(99.99% * 1/2 - (30px - 30px * 1/2));
+}
+.Card > div:nth-child(n) {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  clear: none;
+}
+.Card > div:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.Card > div:nth-child(2n) {
+  margin-right: 0;
+}
+.Card > div:nth-child(2n + 1) {
+  clear: left;
+}
+.Card > div:nth-last-child(-n + 2) {
+  margin-bottom: 0;
 }
 .Card h3 {
   margin-top: 0;

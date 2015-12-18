@@ -5,34 +5,51 @@
 @section('partials.section')
 
     <div class="Card">
-        <h3>My Card</h3>
+        <div>1
+            <div>2</div>
+            <div>3</div>
+        </div>
     </div>
 
     <div class="Card">
-        <h3>My Card</h3>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
     </div>
 
     <div class="Card">
-        <h3>My Card</h3>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
     </div>
 
     <div class="Card">
-        <h3>My Card</h3>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
     </div>
 
     <div class="Card">
-        <h3>My Card</h3>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
     </div>
 
     <div class="Card">
-        <h3>My Card</h3>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
     </div>
 
     <div class="Card">
-        <h3>My Card</h3>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
     </div>
 
     <div class="Card">
-        <h3>My Card</h3>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
     </div>
 @stop
