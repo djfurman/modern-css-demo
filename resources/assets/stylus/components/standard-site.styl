@@ -1,0 +1,36 @@
+/*
+ * Setup to show section boundaries
+ */
+header
+  background red
+  h1
+    margin 0
+
+aside
+  background yellow
+
+main
+  background blue
+
+footer
+  background orange
+
+/*
+ * Flexbox specific styling
+ */
+.app-container
+  display flex
+  flex-wrap wrap
+
+header, footer
+  flex-basis 100%
+
+main
+  flex 1
+
+aside
+  flex-basis 150px
+
+@media screen and (max-width: 480px)
+  .app-container > *
+    flex-basis 100%
