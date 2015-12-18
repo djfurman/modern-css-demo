@@ -7,23 +7,23 @@
 </head>
 <body class="@yield('body_class')">
 
-    {{--@include('partials.standard-site')--}}
+    @include('partials.standard-site')
 
     @include('partials.new-navigation')
 
-    {{--@include('partials.topNav')--}}
+    @include('partials.topNav')
 
-    {{--@include('partials.grid')--}}
+    @include('partials.grid')
 
-    {{--@yield('partials.section')--}}
+    @yield('partials.section')
 
-    {{--@include('partials.media')--}}
+    @include('partials.media')
 
-    {{--<div class="box__container">--}}
-        {{--@include('partials.box')--}}
-    {{--</div>--}}
+    <div class="box__container">
+        @include('partials.box')
+    </div>
 
-    {{--@include('partials.footer')--}}
+    @include('partials.footer')
 
 </body>
 </html>
