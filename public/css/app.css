@@ -1,22 +1,54 @@
-body {
-  background: #008000;
-  color: #fff;
+/*
+|
+| Partials
+|
+*/
+.Media {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  background: #fff;
+  padding: 20px;
 }
-body,
-html {
-  height: 100%;
+.Media__figure {
+  margin-right: 1em;
 }
-h1 {
-  font-size: 100px;
+.Media__body p:first-child {
+  margin-top: 0;
+}
+.Testimonial {
+  border: 16px solid #fff;
+}
+.Testimonial--is-featured {
+  width: 100%;
+}
+.Testimonial__body {
+  padding: 0 50px;
+}
+.Testimonial__name {
+  color: #f00;
+}
+.Testimonial--is-featured .Testimonial__name {
+  text-align: left;
+}
+.navigation-bar ul {
+  background: #008000;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.navigation-bar ul,
+.navigation-bar li {
+  list-style: none;
+}
+.navigation-bar li {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+.navigation-bar li:hover {
+  background: #00f;
 }
 
 /*# sourceMappingURL=app.css.map */

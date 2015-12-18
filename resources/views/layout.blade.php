@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>@yield('title')</title>
     <link rel="stylesheet" href="/css/app.css">
 </head>
 <body class="@yield('body_class')">
 
-    {{--@yield('partials.top-menu')--}}
+    @include('partials.topNav')
 
     @yield('partials.section')
 
-    {{--@yield('partials.footer')--}}
+    @include('partials.media')
+
+    @include('partials.footer')
 
 </body>
 </html>
