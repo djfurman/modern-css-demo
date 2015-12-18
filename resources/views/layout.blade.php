@@ -13,6 +13,10 @@
 
     @include('partials.media')
 
+    <div class="box__container">
+        @include('partials.box')
+    </div>
+
     @include('partials.footer')
 
 </body>
