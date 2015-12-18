@@ -1,39 +1,44 @@
-/*
- * Bootstrap
- */
-/*
- * Components
- */
-.Testimonial {
-  border: 16px solid #fff;
+.container {
+  *zoom: 1;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.Testimonial--is-featured {
-  width: 100%;
+.container:before {
+  content: '';
+  display: table;
 }
-.Testimonial__body {
-  padding: 0 50px;
+.container:after {
+  content: '';
+  display: table;
+  clear: both;
 }
-.Testimonial__name {
-  color: #f00;
+.container *:not(input):not(textarea):not(select) {
+  background-color: rgba(0, 0, 255, 0.1);
 }
-.Testimonial--is-featured .Testimonial__name {
-  text-align: left;
+.Card {
+  width: calc(99.99% * 1/2 - (10px - 10px * 1/2));
+  height: calc(99.99% * 1/2 - (10px - 10px * 1/2));
+  height: 200px;
 }
-/*
- * Page-specific styles
- */
-.join {
-  background: #f00;
+.Card:nth-child(n) {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  clear: none;
 }
-body {
-  color: #008000;
+.Card:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
 }
-.heading {
-  color: inherit;
-  text-decoration: none;
+.Card:nth-child(2n) {
+  margin-right: 0;
 }
-.heading:hover {
-  text-decoration: underline;
+.Card:nth-child(2n + 1) {
+  clear: left;
+}
+.Card:nth-last-child(-n + 2) {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=app.css.map */
