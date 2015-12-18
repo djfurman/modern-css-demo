@@ -9,6 +9,8 @@
 
     @include('partials.topNav')
 
+    @include('partials.grid')
+
     @yield('partials.section')
 
     @include('partials.media')

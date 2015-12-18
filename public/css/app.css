@@ -1,7 +1,5 @@
 /*
-|
 | Partials
-|
 */
 .box {
   background: #f00;
@@ -62,6 +60,18 @@
 }
 .Testimonial--is-featured .Testimonial__name {
   text-align: left;
+}
+.grid__column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  border: 1px solid #808080;
+}
+.grid__row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 .navigation-bar ul {
   background: #008000;
