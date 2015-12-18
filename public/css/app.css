@@ -1,70 +1,19 @@
-.container {
-  *zoom: 1;
-  max-width: 980px;
-  margin-left: auto;
-  margin-right: auto;
+body {
+  background: #008000;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
-.container:before {
-  content: '';
-  display: table;
-}
-.container:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-.container *:not(input):not(textarea):not(select) {
-  background-color: rgba(0, 0, 255, 0.1);
-}
-.Card {
-  width: calc(99.99% * 1/2 - (30px - 30px * 1/2));
-  height: calc(99.99% * 1/2 - (30px - 30px * 1/2));
-  height: 200px;
-}
-.Card:nth-child(n) {
-  float: left;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  clear: none;
-}
-.Card:last-child {
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.Card:nth-child(2n) {
-  margin-right: 0;
-}
-.Card:nth-child(2n + 1) {
-  clear: left;
-}
-.Card:nth-last-child(-n + 2) {
-  margin-bottom: 0;
-}
-.Card > div {
-  width: calc(99.99% * 1/2 - (30px - 30px * 1/2));
-  height: calc(99.99% * 1/2 - (30px - 30px * 1/2));
-}
-.Card > div:nth-child(n) {
-  float: left;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  clear: none;
-}
-.Card > div:last-child {
-  margin-right: 0;
-  margin-bottom: 0;
-}
-.Card > div:nth-child(2n) {
-  margin-right: 0;
-}
-.Card > div:nth-child(2n + 1) {
-  clear: left;
-}
-.Card > div:nth-last-child(-n + 2) {
-  margin-bottom: 0;
-}
-.Card h3 {
-  margin-top: 0;
+body,
+html {
+  height: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */

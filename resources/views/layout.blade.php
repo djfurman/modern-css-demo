@@ -8,9 +8,9 @@
 <body class="@yield('body_class')">
 
     {{--@yield('partials.top-menu')--}}
-    <div class="container">
-        @yield('partials.section')
-    </div>
+
+    @yield('partials.section')
+
     {{--@yield('partials.footer')--}}
 
 </body>
