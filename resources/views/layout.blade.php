@@ -7,7 +7,9 @@
 </head>
 <body class="@yield('body_class')">
 
-    @include('partials.standard-site')
+    {{--@include('partials.standard-site')--}}
+
+    @include('partials.new-navigation')
 
     {{--@include('partials.topNav')--}}
 

@@ -1,0 +1,40 @@
+/*
+ * Initial Setup
+ */
+
+body
+  font-family: sans-serif
+
+ul, li
+  margin: 0
+  padding: 0
+  list-style none
+
+li
+  margin 20px 0
+
+a
+  color white
+  text-decoration: none
+  display inline-block
+  padding 50px
+
+a:hover
+  text-decoration underline
+
+/*
+ * Flexbox
+ */
+
+nav > ul
+  display flex
+  background black
+  align-items center
+  justify-content space-around
+
+nav li
+  flex 1
+
+@media screen and (max-width: 480px)
+  nav > ul
+    flex-direction column
